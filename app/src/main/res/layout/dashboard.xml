@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <!--登出按鈕區塊-->
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.cadtc.androidwithmysqlphpsqlite.btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="0.03"
+        tools:layout="@layout/logout" />
+
+    <!--猜拳遊戲區塊-->
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.cadtc.androidwithmysqlphpsqlite.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.92"
+        tools:layout="@layout/main1" />
+
+    <!--計算成績區塊-->
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.cadtc.androidwithmysqlphpsqlite.BlankFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/main2" />
+
+    <!--聊天室區塊-->
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.cadtc.androidwithmysqlphpsqlite.Chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.19"
+        tools:layout="@layout/chat" />
+
+</LinearLayout>

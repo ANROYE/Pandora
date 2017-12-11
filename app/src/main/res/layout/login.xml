@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+		<!--  登入標籤 -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:textColor="#ffffff"
+            android:text="登入"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+		<!-- 信箱標籤 -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Email" />
+
+		<!-- 信箱輸入 -->
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="fill_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content" />
+        
+		<!-- 密碼標籤 -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textColor="#ffffff"
+            android:text="Password" />
+
+		<!--  密碼輸入 -->
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:password="true" />
+        
+        <!--  錯誤訊息 -->
+        <TextView android:id="@+id/login_error"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:textColor="#e30000"
+            		android:padding="10dip"
+            		android:textStyle="bold"/>
+
+		<!--  登入按鈕 -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="送出" />
+
+        <!--  註冊新會員 -->
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:textSize="39sp"
+            android:text="註冊新會員"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
