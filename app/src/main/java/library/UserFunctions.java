@@ -18,8 +18,8 @@ public class UserFunctions {
 	
 	private JSONParser jsonParser;
 	
-	private static String loginURL = "http://www.chiens.idv.tw/lccnet5g/";
-	private static String registerURL = "http://www.chiens.idv.tw/lccnet5g/";
+	private static String loginURL = "請輸入登入網址";
+	private static String registerURL = "請輸入註冊網址";
 	
 	private static String login_tag = "login";
 	private static String register_tag = "register";
