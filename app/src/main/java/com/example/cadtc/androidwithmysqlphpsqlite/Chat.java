@@ -98,7 +98,7 @@ public class Chat extends Fragment {
 
 			try {
 				// 以內定(本機電腦端)IP為Server端
-				serverIp = InetAddress.getByName("192.168.1.111");
+				serverIp = InetAddress.getByName("XXX.XXX.X.XXX");
 				int serverPort = 5050;
 				clientSocket = new Socket(serverIp, serverPort);
 
