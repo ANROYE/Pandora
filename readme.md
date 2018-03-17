@@ -1,4 +1,4 @@
-# JAVA+Android+php 遊玩兼聊天練習作品
+# JAVA+Android+PHP 遊玩兼聊天練習作品
 
 ##基本說明
 - 只是小demo作品
